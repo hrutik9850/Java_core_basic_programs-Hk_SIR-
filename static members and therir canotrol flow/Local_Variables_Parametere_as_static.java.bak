@@ -1,0 +1,8 @@
+class Local_Variables_Parametere_as_static 
+{
+	static  int a = 10;
+	public static void main(String[] args) 
+	{
+		//static int b =20;		//CE: illegal start of expression
+	}
+}

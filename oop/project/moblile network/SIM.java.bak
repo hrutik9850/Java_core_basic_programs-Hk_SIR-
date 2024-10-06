@@ -1,0 +1,8 @@
+public interface SIM
+{
+	void recharge(double amt);
+	void currentBlance();
+	String call(long mn);
+	String sms(long mn,String msg);
+
+}

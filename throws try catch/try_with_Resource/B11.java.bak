@@ -1,0 +1,39 @@
+class A11 
+{
+	int x =m1();
+	int m1(){
+		System.out.println("A nsm");
+		return 10;
+	}
+	{
+		System.out.println("A nsb");
+
+	}
+	A11(){
+		System.out.println("A coud");
+
+	}
+}
+class B11 extends A11
+{
+	int  y = m2 ();
+	int m2(){
+		System.out.println("B Nsm");
+		return 20;
+	}
+
+	{
+		System.out.println("B nsb");
+
+	}
+
+	B11 (){
+		System.out.println(" B con");
+
+	}
+	public static void main(String []args){
+		B11 b = new B11();	
+		System.out.println(b.x);
+		System.out.println(b.y);
+	}
+}

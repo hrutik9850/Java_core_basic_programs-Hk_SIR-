@@ -1,0 +1,10 @@
+class LabRume 
+{
+	static String Collage ;
+	static String Dp ;
+	static int CollageCode;
+	static String LabId ;
+	String Sname ;
+	int y1;
+	String Bookname;
+}
